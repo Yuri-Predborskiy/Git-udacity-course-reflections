@@ -1,0 +1,17 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When I initialize a repository, it creates initial branch of git history.
+Meaning, no files are tracked, no commits are saved. It just greates a git repository.
+I need to do that to create files/folders for git to be able to track history of changes later.
+
+---------------
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+Staging area is where I list files to be added to the next repository version.
+It only lists files to be tracked inside the working directory, but does not contain files themselves.
+It allows me to pick the files I want to track history of, ignoring other files.
+It also writes useful info in git status command
+
+---------------
