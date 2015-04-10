@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+diff only showed lines that had differences, saving me time in comparing two source code files
+
+-----------------
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having a library of older file versions helps a lot, as it allows to find changes fast.
+If a bug was introduced in new file version, you can simply revert to previous version as a fast workaround.
+
+-----------------
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros of manual commit: you know the best when a new version should be created. Thus, all commits can be logical.
+Cons: you may miss the time to commit and end up committing too much code. Needs discipline.
+
+-----------------
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is made to work with projects that consist of several related files. Thus, it saves all files together as a commit.
+Google Docs treats every file as separate project.
+
+-----------------
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log    # shows the log of commits (all file versions) and their IDs, comments
+git diff   # ID1 ID2  shows the difference between two selected commits
+
+----------------
+
+How might using version control make you more confident to make changes that could break something?
+
+Having git, which saves the important versions of my files, I can finally forget about manual versioning.
+Now I can concentrate on making more versions of my program and testing each one separately.
+This also makes it much easier to find differences in code and find small bugs.
+
+---------------
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use Git for making a web site:
+keeping track of changes I make
+and be able to go back to a recent version, or compare the two
+
+---------------
