@@ -15,3 +15,34 @@ It allows me to pick the files I want to track history of, ignoring other files.
 It also writes useful info in git status command
 
 ---------------
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can use staging area to add one file (one logical change) to staging area and use git status and git diff to see a list of changes.
+git diff --staged also helps finding changes between staging area and commit, useful!
+
+---------------
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When I want to make big changes. Examples:
+when adding experimental features
+when making localized versions of files
+when making changes I may want to get rid of later
+when testing things out
+Branches allow me to test various things while also keeping my "stable" version of file, easily!
+
+---------------
+
+How do the diagrams help you visualize the branch structure?
+
+Diagram allows me to check branch structure and find commits I may have forgotten about, or find 'lost' commits.
+
+---------------
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When two branches are merged, we get a file that contains all changes made in both branches. For example, if a new experimental feature was added and we fixed any present bugs and want to add the feature to the program, we simply merge its branch with master branch and this way keep changes made to master since branch was introduced, while at the same time adding changes, introduced in the branch itself.
+In the diagram we represent merging as a way to show that several branches have been combined and made into a single branch.
+
+---------------
