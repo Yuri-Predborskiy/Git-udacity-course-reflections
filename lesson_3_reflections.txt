@@ -5,3 +5,14 @@ And when I want to share my work (code) with other people, allow them to downloa
 For example, when I work together with other people in a company.
 Or when I work from home PC and from work PC at the same time and want to sync changes.
 Its also possible to use GitHub as a backup for my private projects (but, sadly, that feature is not free, comes with monthly subscription).
+
+---------------
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+I may want to commit my changes into a branch before pulling changes from remote depository rather than having Git stay up-to-date automatically.
+I may also want to work on my local version and make changes and push them before pulling other branches from the remote.
+Or I may end up in conflict when Git auto-syncs my local and remote versions of files, so I'll get stuck and won't be able to work till I fix merge conflicts.
+In short, its typically more "safe" to push/pull when I feel ready rather than automatically. Same as committing.
+
+---------------
