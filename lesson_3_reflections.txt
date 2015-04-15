@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Whenever I work from more than one computer.
+And when I want to share my work (code) with other people, allow them to download it, make changes, commit it and push to my repository.
+For example, when I work together with other people in a company.
+Or when I work from home PC and from work PC at the same time and want to sync changes.
