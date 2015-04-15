@@ -46,3 +46,10 @@ When two branches are merged, we get a file that contains all changes made in bo
 In the diagram we represent merging as a way to show that several branches have been combined and made into a single branch.
 
 ---------------
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: saves time and makes it easy to merge several branches of commits, keeping changes introduced in each branch. Also safe because whenever conflict is detected, no action is taken, user is asked to fix conflict instead.
+Cons: merge conflicts may take a while to fix. Merging automatically when several files introduce the same change in different names will create unrequired code (not executed or excessive), which would require fixing, and may lead to lots of problems. Merged branches shouldn't change the same code or try to fix the same bug.
+
+---------------
