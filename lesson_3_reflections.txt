@@ -16,3 +16,18 @@ Or I may end up in conflict when Git auto-syncs my local and remote versions of 
 In short, its typically more "safe" to push/pull when I feel ready rather than automatically. Same as committing.
 
 ---------------
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork - used in GitHub when you want to make a copy of someone's git project (copy commit history and current condition).
+Clone - used when you want to make a local copy of remote git project.
+Branch - used locally when you want to make experimental changes you don't plan to add just yet to master branch of the project. Branches can be considered private commits, and they can be added to Master at a later time.
+
+Use Fork when making a copy of someone's git project for your own purposes (build upon or make changes).
+Use Clone when you want to make a copy of a remote commit (your own or someone else's).
+Use Branch for experimental changes, like bug fixing or adding new features.
+
+---------------
+
+
+---------------
