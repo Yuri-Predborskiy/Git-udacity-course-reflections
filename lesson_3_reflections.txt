@@ -29,5 +29,8 @@ Use Branch for experimental changes, like bug fixing or adding new features.
 
 ---------------
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This allows simple and fast push/pull requests, as long as remote and local don't go out of sync.
 
 ---------------
