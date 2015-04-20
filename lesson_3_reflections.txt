@@ -34,3 +34,13 @@ What is the benefit of having a copy of the last known state of the remote store
 This allows simple and fast push/pull requests, as long as remote and local don't go out of sync.
 
 ---------------
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without git or github I'd have to keep separate versions of my code (files) each time I make changes. I'd have to contact others to make sure we don't work on the same changes.
+Every time we'd make some changes we would like to share, we'd have to use some file compare software to compare files, and someone would have to make finalized changes into a "master" file version.
+It would be easier to work with separate files without git or github, you just make changes and thats all.
+It would be harder to combine separate versions of same file for merging our changes, since we'd have to manually merge different files, possibly introducing bugs and typos, potentially breaking the code.
+It would also be much harder to keep a track of history of changes to files.
+
+---------------
