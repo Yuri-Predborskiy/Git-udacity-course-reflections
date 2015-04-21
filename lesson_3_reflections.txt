@@ -44,3 +44,14 @@ It would be harder to combine separate versions of same file for merging our cha
 It would also be much harder to keep a track of history of changes to files.
 
 ---------------
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Separate branch is used when making changes to master, but when you're not sure it will work out fine.
+It is useful for testing new features, or fixing bugs. Anything that is not done in an instant.
+Having a branch allows me to keep a working version of the software, and make changes to a separate "branch" with changes.
+And I can make changes to main branch without breaking the experimental branch!
+
+Making changes directly in main branch makes it easier to make changes in the program and keep a track of what changes were made, and it works for simpler programs with simpler changes (when each new version, or commit, contains a single working main version).
+
+---------------
